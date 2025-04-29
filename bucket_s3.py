@@ -16,10 +16,6 @@ def transform_data(es_data: Dict) -> Dict:
 
 MONGO_URI = "mongodb+srv://testuser:hub24aoeu@gg-is-awesome-gg273.mongodb.net/test?retryWrites=true&w=majority"
 
-AWS_S3_SECRET_ACCESS_KEY='ASIAIOSFODNN7EXAMPLE'
-AWS_SECRET_ACCESS_KEY='wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY'
-AWS_SECURITY_TOKEN='IQoJb3JpZ2luX2IQoJb3JpZ2luX2IQoJb3JpZ2luX2IQoJb3JpZ2luX2IQoJb3JpZVERYLONGSTRI'
-
 def pull_data_from_mongo(query: Dict):
     return pymongo.connect(MONGO_URI).fetch(query)
 
