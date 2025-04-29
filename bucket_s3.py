@@ -16,6 +16,9 @@ def transform_data(es_data: Dict) -> Dict:
 
 MONGO_URI = "mongodb+srv://testuser:hub24aoeu@gg-is-awesome-gg273.mongodb.net/test?retryWrites=true&w=majority"
 
+AWS_ACCESS_KEY=ASIAIOSFODNN7EXAMPLE
+AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+
 def pull_data_from_mongo(query: Dict):
     return pymongo.connect(MONGO_URI).fetch(query)
 
