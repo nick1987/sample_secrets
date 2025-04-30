@@ -29,9 +29,3 @@ var pg_host_test="gitguardians.com:9084/BLUDB";
 var pg_user_test="test";
 
 var mongo_uri_test="mongodb+srv://test:hub24aoeu@gg-is-awesome-gg273.mongodb.net/test?retryWrites=true&w=majority";
-
-var pg_port_qa=5678;
-var pg_host_qa="gitguardians.com:9086/BLUDB";
-var pg_user_qa="qa";
-
-var mongo_uri_qa="mongodb+srv://qa:hub24aoeu@gg-is-awesome-gg273.mongodb.net/qa?retryWrites=true&w=majority";
