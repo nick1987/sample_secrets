@@ -10,7 +10,7 @@ var pg_port_prod=5678;
 var pg_host_prod="gitguardians.com:9081/BLUDB";
 var pg_user_prod="root";
 
-var mongo_uri_prod="mongodb+srv://root:hub24aoeu@gg-is-awesome-gg273.mongodb.net/test?retryWrites=true&w=majority";
+var mongo_uri_prod="mongodb+srv://root:hub24aoeu@gg-is-awesome-gg273.mongodb.net/prod?retryWrites=true&w=majority";
 
 var pg_port_dev=5678;
 var pg_host_dev="gitguardians.com:9080/BLUDB";
@@ -29,9 +29,3 @@ var pg_host_test="gitguardians.com:9084/BLUDB";
 var pg_user_test="test";
 
 var mongo_uri_test="mongodb+srv://test:hub24aoeu@gg-is-awesome-gg273.mongodb.net/test?retryWrites=true&w=majority";
-
-var pg_port_preprod=5678;
-var pg_host_preprod="gitguardians.com:9088/BLUDB";
-var pg_user_preprod="preprod";
-
-var mongo_uri_preprod="mongodb+srv://preprod:hub24aoeu@gg-is-awesome-gg273.mongodb.net/preprod?retryWrites=true&w=majority";
