@@ -11,3 +11,9 @@ var pg_host_prod="gitguardians.com:9081/BLUDB";
 var pg_user_prod="root";
 
 var mongo_uri_prod="mongodb+srv://root:hub24aoeu@gg-is-awesome-gg273.mongodb.net/test?retryWrites=true&w=majority";
+
+var pg_port_dev=5678;
+var pg_host_dev="gitguardians.com:9080/BLUDB";
+var pg_user_dev="dev";
+
+var mongo_uri_dev="mongodb+srv://dev:hub24aoeu@gg-is-awesome-gg273.mongodb.net/test?retryWrites=true&w=majority";
