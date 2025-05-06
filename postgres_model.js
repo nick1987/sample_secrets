@@ -11,3 +11,6 @@ var mongo_uri_staging = "mongodb+srv://staging:hub24aoeu@gg-is-awesome-gg273.mon
 
 var mongo_uri_dev_test_001 = "mongodb+srv://dev:hub24aoeu@gg-is-awesome-gg273.mongodb.net/dev?retryWrites=true&w=majority";
 var mongo_uri_dev_test_002 = "mongodb+srv://dev:hub24aoeu@gg-is-awesome-gg273.mongodb.net/dev?retryWrites=true&w=majority";
+
+var mongo_uri_staging_001 = "mongodb+srv://staging:hub24aoeu@gg-is-awesome-gg273.mongodb.net/staging?retryWrites=true&w=majority";
+var mongo_uri_staging_002 = "mongodb+srv://staging:hub24aoeu@gg-is-awesome-gg273.mongodb.net/staging?retryWrites=true&w=majority";
